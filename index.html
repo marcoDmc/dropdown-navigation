@@ -14,14 +14,92 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./styles/index.css">
-    <script src="./scripts/index.js"></script>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./scripts/index.js" defer></script>
 
     <title>dropdown navigation</title>
   </head>
   <body>
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
+    <header class="header__page">
+      <span class="header__page-background"></span>
+      <span class="header__page-menu-mobile"> </span>
+
+      <img src="./assets/logo.svg" alt="logo snap" class="header-logo" />
+      <div class="header__menu-hamburguer"></div>
+      <menu class="header__page-menu">
+        <span class="features">
+          <p class="header__features">
+            features
+            <img
+              src="./assets/icon-arrow-down.svg"
+              alt="icon arrow up"
+              class="icon-features"
+            />
+          </p>
+          <ul class="header__page-list-features">
+            <li class="features-options">
+              <img src="./assets/icon-todo.svg" alt="icon todo list" />
+              todo list
+            </li>
+            <li class="features-options">
+              <img src="./assets/icon-calendar.svg" alt="icon calendar" />
+              calendar
+            </li>
+            <li class="features-options">
+              <img src="./assets/icon-reminders.svg" alt="icon reminders" />
+              reminders
+            </li>
+            <li class="features-options">
+              <img src="./assets/icon-planning.svg" alt="icon planning" />
+              planning
+            </li>
+          </ul>
+        </span>
+        <span class="company">
+          <p class="header__company">
+            company
+            <img 
+              src="./assets/icon-arrow-down.svg"
+              alt="icon arrow up"
+              class="icon-company"
+            />
+          </p>
+          <ul class="header__page-list-company">
+            <li class="company-options">history</li>
+            <li class="company-options">our team</li>
+            <li class="company-options">blog</li>
+          </ul>
+        </span>
+        <span class="carrers">carrers</span>
+        <span class="about">about</span>
+        <div class="header__page-wrapper-buttons">
+          <button class="login">login</button>
+          <button class="register">register</button>
+        </div>
+      </menu>
+    </header>
+    <main class="main__page">
+      <h1 class="main__page-title">Make remote work</h1>
+      <p class="main__page-text">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar. Learn more
+      </p>
+      <button class="main__page-button">learn more</button>
+
+      <span class="main__page-sponsorships">
+        <img
+          src="./assets/client-databiz.svg"
+          alt="databiz logo"
+          class="logos"
+        />
+        <img
+          src="./assets/client-audiophile.svg"
+          alt="audiophile logo"
+          class="logos"
+        />
+        <img src="./assets/client-meet.svg" alt="meet logo" class="logos" />
+        <img src="./assets/client-maker.svg" alt="maker logo" class="logos" />
+      </span>
+    </main>
   </body>
 </html>
