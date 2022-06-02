@@ -308,7 +308,7 @@ li:hover {
     display: grid;
   }
   .header__page .header__page-menu .header__page-list-company {
-    top: 150px;
+    top: 180px;
     background: transparent;
     box-shadow: none;
     left: 15px;
@@ -325,6 +325,9 @@ li:hover {
 
   .header__page .header__page-menu .header__page-list-company-open {
     display: grid;
+  }
+  .carrers{
+    margin-top: 1rem;
   }
 
   .main__page {
