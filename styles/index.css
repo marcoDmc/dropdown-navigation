@@ -314,7 +314,7 @@ li:hover {
     display: grid;
   }
   .header__page .header__page-menu .header__page-list-company {
-    top: 160px;
+    top: 180px;
     border: 2px solid red;
     bottom: 0;
     background: transparent;
