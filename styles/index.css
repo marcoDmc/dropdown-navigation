@@ -253,9 +253,13 @@ li:hover {
     overflow: hidden;
     display: none;
     padding: 1.1rem 1rem;
+    border: 2px solid red;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
   }
   .header__page .header__page-menu-open {
-    display: grid;
+    display: flex;
   }
 
   .header__page-background {
@@ -274,9 +278,11 @@ li:hover {
   }
 
   .header__page-wrapper-buttons {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
     width: 100%;
-    place-items: start;
     padding: 0;
   }
   .header__page-wrapper-buttons .register:hover {
@@ -308,7 +314,9 @@ li:hover {
     display: grid;
   }
   .header__page .header__page-menu .header__page-list-company {
-    top: 180px;
+    top: 160px;
+    border: 2px solid red;
+    bottom: 0;
     background: transparent;
     box-shadow: none;
     left: 15px;
@@ -326,7 +334,7 @@ li:hover {
   .header__page .header__page-menu .header__page-list-company-open {
     display: grid;
   }
-  .carrers{
+  .carrers {
     margin-top: 1rem;
   }
 
